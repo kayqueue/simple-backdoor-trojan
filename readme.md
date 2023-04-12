@@ -8,7 +8,7 @@ Create a Backdoor Trojan to be delivered to a victim Ubuntu user
     - backdoor trojan is a client Python program that will connect to your Kali machine waiting for connection
     - program will be based on Python socket package
 
-Setup:
+Setup
 - Open up a Kali VM(Server-Attacker) and a Ubuntu VM(Client-Victim)
 - Note the IPv4 address of your Kali. If it is not 10.0.2.5, please open up client.py in the Ubuntu machine and change the kali_ip accordingly.
 - If any changes are made to client.py, please run the following command in your ubuntu terminal to compile the client.py file to make it into an executable: $ python3 reset.py
